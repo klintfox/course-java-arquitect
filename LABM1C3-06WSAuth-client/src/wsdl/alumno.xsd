@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.1.6 in JDK 6. --><xs:schema xmlns:tns="http://jaxws.ws.jaad.cibertec.edu/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://jaxws.ws.jaad.cibertec.edu/">
+
+<xs:element name="consultar" type="tns:consultar"></xs:element>
+
+<xs:element name="consultarResponse" type="tns:consultarResponse"></xs:element>
+
+<xs:element name="registrar" type="tns:registrar"></xs:element>
+
+<xs:element name="registrarResponse" type="tns:registrarResponse"></xs:element>
+
+<xs:complexType name="registrar">
+<xs:sequence>
+<xs:element name="arg0" type="tns:alumno" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="alumno">
+<xs:sequence>
+<xs:element name="apellidos" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="dni" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="edad" type="xs:int"></xs:element>
+<xs:element name="nombre" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="registrarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="consultar">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="consultarResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:alumno" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

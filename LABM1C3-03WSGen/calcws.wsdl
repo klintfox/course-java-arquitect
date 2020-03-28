@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions name="BasicCalculadoraService" targetNamespace="http://jaxws.jaad.cibertec.edu/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://jaxws.jaad.cibertec.edu/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<wsdl:types>
+		<xs:schema elementFormDefault="unqualified" targetNamespace="http://jaxws.jaad.cibertec.edu/" version="1.0" xmlns:tns="http://jaxws.jaad.cibertec.edu/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+			<xs:element name="restar" type="tns:restar"/>
+			<xs:element name="restarResponse" type="tns:restarResponse"/>
+			<xs:element name="sumar" type="tns:sumar"/>
+			<xs:element name="sumarResponse" type="tns:sumarResponse"/>
+			<xs:complexType name="restar">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="arg0" type="xs:int"/>
+					<xs:element minOccurs="0" name="arg1" type="xs:int"/>
+				</xs:sequence>
+			</xs:complexType>
+			<xs:complexType name="restarResponse">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="return" type="xs:int"/>
+				</xs:sequence>
+			</xs:complexType>
+			<xs:complexType name="sumar">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="arg0" type="xs:int"/>
+					<xs:element minOccurs="0" name="arg1" type="xs:int"/>
+				</xs:sequence>
+			</xs:complexType>
+			<xs:complexType name="sumarResponse">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="return" type="xs:int"/>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:schema>
+	</wsdl:types>
+	<wsdl:message name="restar">
+		<wsdl:part element="tns:restar" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="restarResponse">
+		<wsdl:part element="tns:restarResponse" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="sumarResponse">
+		<wsdl:part element="tns:sumarResponse" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="sumar">
+		<wsdl:part element="tns:sumar" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="Calculadora">
+		<wsdl:operation name="restar">
+			<wsdl:input message="tns:restar" name="restar">
+			</wsdl:input>
+			<wsdl:output message="tns:restarResponse" name="restarResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="sumar">
+			<wsdl:input message="tns:sumar" name="sumar">
+			</wsdl:input>
+			<wsdl:output message="tns:sumarResponse" name="sumarResponse">
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="BasicCalculadoraServiceSoapBinding" type="tns:Calculadora">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="restar">
+			<soap:operation soapAction="" style="document"/>
+			<wsdl:input name="restar">
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output name="restarResponse">
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="sumar">
+			<soap:operation soapAction="" style="document"/>
+			<wsdl:input name="sumar">
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output name="sumarResponse">
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="BasicCalculadoraService">
+		<wsdl:port binding="tns:BasicCalculadoraServiceSoapBinding" name="BasicCalculadoraPort">
+			<soap:address location="http://localhost:8080/calcws/"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

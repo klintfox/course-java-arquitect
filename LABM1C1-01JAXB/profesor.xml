@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:elprofe xmlns:ns2="http//cibertec.edu.pe/jaxb/profesor" nombre="Manuel">
+    <fechaIngreso>2016-05-02T00:00:00-05:00</fechaIngreso>
+    <code>9876</code>
+    <apellido>Perez</apellido>
+</ns2:elprofe>

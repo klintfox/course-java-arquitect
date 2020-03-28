@@ -1,0 +1,3 @@
+21:49:08,447 [main      ] INFO  (rs.TimeClient) TEXT_PLAIN=Fri May 13 21:49:08 COT 2016 - [linea:36]
+21:49:08,453 [main      ] INFO  (rs.TimeClient) TEXT_XML=<?xml version="1.0"?><time>Fri May 13 21:49:08 COT 2016</time> - [linea:42]
+21:49:08,457 [main      ] INFO  (rs.TimeClient) TEXT_HTML=<!DOCTYPE HTML><html><body><h1>Fri May 13 21:49:08 COT 2016</h1></body></html> - [linea:49]

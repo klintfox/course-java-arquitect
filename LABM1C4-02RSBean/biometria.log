@@ -1,0 +1,22 @@
+2016-05-14 09:30:07,437 [main] [INFO ] (server.ProgramaServer) - Servidor inciado
+2016-05-14 09:46:02,617 [main] [INFO ] (server.ProgramaServer) - Servidor inciado
+2016-05-14 09:49:04,214 [main] [INFO ] (client.RESTClientGet) - List-JSON:[{"id":"01","nombre":"Java Advance","duracion":50.0,"fechaInicio":1467349200000,"fechfin":1481346000000},{"id":"02","nombre":"Java Arquitect","duracion":70.0,"fechaInicio":1459486800000,"fechfin":1476075600000}]
+2016-05-14 09:50:56,298 [main] [INFO ] (client.RESTClientGet) - List-JSON:<?xml version="1.0" encoding="UTF-8" standalone="yes"?><programas><programa><duracion>50.0</duracion><fechaInicio>2016-07-01T00:00:00-05:00</fechaInicio><fechfin>2016-12-10T00:00:00-05:00</fechfin><id>01</id><nombre>Java Advance</nombre></programa><programa><duracion>70.0</duracion><fechaInicio>2016-04-01T00:00:00-05:00</fechaInicio><fechfin>2016-10-10T00:00:00-05:00</fechfin><id>02</id><nombre>Java Arquitect</nombre></programa></programas>
+2016-05-14 09:57:47,620 [main] [INFO ] (client.RESTClientGet) - List-JSON:[{"id":"01","nombre":"Java Advance","duracion":50.0,"fechaInicio":1467349200000,"fechfin":1481346000000},{"id":"02","nombre":"Java Arquitect","duracion":70.0,"fechaInicio":1459486800000,"fechfin":1476075600000}]
+2016-05-14 09:57:47,699 [main] [INFO ] (client.RESTClientGet) - Lista:[edu.cibertec.jaad.rsws.bean.Programa@66a23610, edu.cibertec.jaad.rsws.bean.Programa@238b8914]
+2016-05-14 09:59:01,275 [main] [INFO ] (client.RESTClientGet) - List-JSON:[{"id":"01","nombre":"Java Advance","duracion":50.0,"fechaInicio":1467349200000,"fechfin":1481346000000},{"id":"02","nombre":"Java Arquitect","duracion":70.0,"fechaInicio":1459486800000,"fechfin":1476075600000}]
+2016-05-14 09:59:01,414 [main] [INFO ] (client.RESTClientGet) - Lista:[edu.cibertec.jaad.rsws.bean.Programa@44d6b059, edu.cibertec.jaad.rsws.bean.Programa@6ad3c65d]
+2016-05-14 10:37:30,463 [main] [INFO ] (server.ProgramaServer) - Servidor inciado
+2016-05-14 10:38:13,931 [main] [INFO ] (server.ProgramaServer) - Servidor inciado
+2016-05-14 10:40:22,234 [main] [INFO ] (server.ProgramaServer) - Servidor inciado
+2016-05-14 10:42:00,704 [main] [INFO ] (server.ProgramaServer) - Servidor inciado
+2016-05-14 10:44:06,744 [main] [INFO ] (server.ProgramaServer) - Servidor inciado
+2016-05-14 10:45:44,076 [main] [INFO ] (server.ProgramaServer) - Servidor inciado
+2016-05-14 10:55:49,341 [main] [INFO ] (server.ProgramaServer) - Servidor inciado
+2016-05-14 10:56:35,105 [main] [INFO ] (client.RESTClientPost) - HTTP status=[201]
+2016-05-14 10:56:35,107 [main] [INFO ] (client.RESTClientPost) - HTTP clientstatus=[Created]
+2016-05-14 10:56:35,107 [main] [INFO ] (client.RESTClientPost) - HTTP Header:[[0]]
+2016-05-14 10:56:35,107 [main] [INFO ] (client.RESTClientPost) - HTTP Header:[[/programa/create/03]]
+2016-05-14 10:56:35,107 [main] [INFO ] (client.RESTClientPost) - HTTP Header:[[keep-alive]]
+2016-05-14 12:18:41,420 [main] [INFO ] (server.ProgramaServer) - Servidor inciado
+2016-05-14 13:23:37,016 [main] [INFO ] (server.ProgramaServer) - Servidor inciado

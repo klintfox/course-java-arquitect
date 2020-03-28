@@ -1,0 +1,47 @@
+13:14:51,084 [main      ] INFO  (json.JSONMarshall:34) Resultado:
+{
+  "codigo" : 123,
+  "nombre" : "Java Arquitect Application Developer",
+  "fechaInicio" : 1462165200000,
+  "fechaFin" : 4311723600000,
+  "modulos" : [ "Fundamentos de comunicacion de Sistemas distribuidos", "Arquitectura de Web Servives y estandares relacionados" ]
+}
+13:25:53,551 [main      ] INFO  (json.JSONMarshall:18) Iniciando...
+13:25:53,688 [main      ] INFO  (json.JSONMarshall:37) Resultado:
+{
+  "codigo" : 123,
+  "fechaInicio" : 1462165200000,
+  "fechaFin" : 4311723600000,
+  "modulos" : [ "Fundamentos de comunicacion de Sistemas distribuidos", "Arquitectura de Web Servives y estandares relacionados" ],
+  "nombreComercial" : "Java Arquitect Application Developer"
+}
+13:27:08,456 [main      ] INFO  (json.JSONMarshall:18) Iniciando...
+13:27:08,596 [main      ] INFO  (json.JSONMarshall:37) Resultado:
+{
+  "nombreComercial" : "Java Arquitect Application Developer",
+  "codigo" : 123,
+  "modulos" : [ "Fundamentos de comunicacion de Sistemas distribuidos", "Arquitectura de Web Servives y estandares relacionados" ],
+  "fechaInicio" : 1462165200000,
+  "fechaFin" : 4311723600000
+}
+13:27:46,656 [main      ] INFO  (json.JSONMarshall:18) Iniciando...
+13:27:46,796 [main      ] INFO  (json.JSONMarshall:37) Resultado:
+{
+  "nombreComercial" : "Java Arquitect Application Developer",
+  "codigo" : 123,
+  "fechaInicio" : 1462165200000,
+  "fechaFin" : 4311723600000,
+  "modulos" : [ "Fundamentos de comunicacion de Sistemas distribuidos", "Arquitectura de Web Servives y estandares relacionados" ]
+}
+13:33:42,707 [main      ] INFO  (json.JSONUnmarshall:17) Datos del programa:
+13:33:42,709 [main      ] INFO  (json.JSONUnmarshall:18) Codigo		:123
+13:33:42,709 [main      ] INFO  (json.JSONUnmarshall:19) Nombre		:Java Arquitect Application Developer
+13:33:42,711 [main      ] INFO  (json.JSONUnmarshall:20) FechaInicio	:Mon May 02 00:00:00 COT 2016
+13:33:42,711 [main      ] INFO  (json.JSONUnmarshall:21) FechaFin		:Fri Aug 20 00:00:00 COT 2106
+13:33:42,711 [main      ] INFO  (json.JSONUnmarshall:22) Modulos		:[Fundamentos de comunicacion de Sistemas distribuidos, Arquitectura de Web Servives y estandares relacionados]
+13:34:40,867 [main      ] INFO  (json.JSONUnmarshall:17) Datos del programa:
+13:34:40,869 [main      ] INFO  (json.JSONUnmarshall:18) Codigo		:123
+13:34:40,869 [main      ] INFO  (json.JSONUnmarshall:19) Nombre		:Java Arquitect Application Developer
+13:34:40,871 [main      ] INFO  (json.JSONUnmarshall:20) FechaInicio	:Mon May 02 00:00:00 COT 2016
+13:34:40,871 [main      ] INFO  (json.JSONUnmarshall:21) FechaFin	:Fri Aug 20 00:00:00 COT 2106
+13:34:40,871 [main      ] INFO  (json.JSONUnmarshall:22) Modulos	:[Fundamentos de comunicacion de Sistemas distribuidos, Arquitectura de Web Servives y estandares relacionados]

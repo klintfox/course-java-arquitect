@@ -1,0 +1,4 @@
+edu\cibertec\jaad\rsws\ProgramaApplication.class
+edu\cibertec\jaad\rsws\BasicProgramaService.class
+edu\cibertec\jaad\rsws\bean\Programa.class
+edu\cibertec\jaad\rsws\ProgramaService.class

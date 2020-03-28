@@ -1,0 +1,3 @@
+08:44:47,479 [main      ] INFO  (jaws.TimeServicePublisher) Servicio desplegando... - [linea:18]
+08:44:59,156 [main      ] INFO  (jaws.TimeServiceClient) TimeAsString:[Sat Apr 30 08:44:59 COT 2016] - [linea:35]
+08:44:59,165 [main      ] INFO  (jaws.TimeServiceClient) TimeAsElapsed:[1462023899160] - [linea:38]

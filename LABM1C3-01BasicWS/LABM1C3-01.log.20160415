@@ -1,0 +1,6 @@
+21:03:22,545 [main      ] INFO  (jaws.TimeServicePublisher) Servicio desplegando... - [linea:16]
+21:09:15,891 [main      ] INFO  (jaws.TimeServicePublisher) Servicio desplegando... - [linea:18]
+21:31:34,760 [main      ] INFO  (jaws.TimeServicePublisher) Servicio desplegando... - [linea:18]
+21:33:50,181 [main      ] INFO  (jaws.TimeServicePublisher) Servicio desplegando... - [linea:18]
+21:34:23,778 [main      ] INFO  (jaws.TimeServiceClient) TimeAsString:[Fri Apr 15 21:34:23 COT 2016] - [linea:28]
+21:34:23,784 [main      ] INFO  (jaws.TimeServiceClient) TimeAsElapsed:[1460774063781] - [linea:31]
