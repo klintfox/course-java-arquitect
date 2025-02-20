@@ -1,0 +1,71 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Directory for Maven or Gradle build artifacts
+/target/
+/build/
+
+# IntelliJ IDEA project files
+.idea/
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# NetBeans project files
+nbproject/
+
+# VS Code project files
+.vscode/
+
+# Gradle files
+.gradle/
+
+# Maven Wrapper files
+.mvn/
+
+# JAR files
+*.jar
+*.war
+*.ear
+
+# Javadoc output
+/javadoc/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Mac system files
+.DS_Store
+
+# Other IDEs & Editors
+*.iml
+
+# Generated Gradle build files
+.gradle/
+build/
+
+# Java Web application deployment files
+*.war
+*.ear
+
+# JUnit and other test result files
+/test-*
+
+# Spring Boot specific files
+spring-boot-devtools/
+
+# Gradle wrapper
+gradle-wrapper.jar
+gradle-wrapper.properties
